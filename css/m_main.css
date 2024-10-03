@@ -1,4 +1,5 @@
 @media screen and (max-width: 1200px) {
+    header .gnb{display: none;}
     .swiper-button-next{
         top: 50%; right: 5%;
     }
@@ -69,6 +70,14 @@
 
 }
 @media screen and (max-width:768px) {
+    .util{
+        margin-top: 0;
+        flex-direction: column; 
+        width: 60%;
+        margin: 0 auto;
+    }
+    .util li+li{margin-top: 100px;}
+
     header .logo{
         width: 12%;
     }

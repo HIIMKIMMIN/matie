@@ -1,0 +1,65 @@
+@charset "utf-8";
+.container > h2{
+    padding-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+.container > button{
+    padding-left: 15%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    color: #0E374F;
+}
+.container > button img{
+    margin-right: 10px;
+    width: 35px;
+}
+.container > button span{
+    border-bottom: 1px solid #0E374F;
+}
+.room_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.room_list li{
+    width: 49%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.room_list li img{
+    width: 100%;
+    object-fit: cover;
+}
+.room_list li .text_area{
+    text-align: center;
+}
+.room_list li .text_area span{
+    color: #FE6E00;
+    margin-top: 30px;
+    display: block;
+    font-size: 18px;
+    font-family: "Lora", serif;
+}
+.room_list li .text_area h3{
+    color: #0E374F;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+}
+.room_list li .text_area p.room_count{
+    color: #0e374fd1;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.room_list li .text_area p.room_info{
+    color: #0e374f;
+    margin-top: 25px;
+    font-size: 18px;
+}

@@ -8,8 +8,8 @@
 }
 /* header */
 .main_visual_area{
-    width: 1200px;
-    max-width: 100%;
+    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     position: relative;
     margin-top: -60vh;
@@ -61,6 +61,7 @@
 }
 .util li a > img{
     padding-right: 30px;
+    /* width: 30%; */
 }
 .util .room{
     padding-right: 60px;
